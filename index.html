@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <header>
+    <header id="top">
         <div class="title">
             <h1>The Daily Cosmos: Project K</h1>
         </div>
@@ -73,7 +73,52 @@
             </article>
         </section>
 
+        <section id="space-letter-form">
+            <h3>.ೃ ࿔ * : TRANSMIT A LETTER TO SPACE .ೃ ࿔ * :</h3>
+            <p>Type your transmission below to send it straight to Commander Kyla's desktop station.</p>
+            
+            <form action="mailto:mikyla_kirsten_aguirre@dlsu.edu.ph" method="post" enctype="text/plain">
+                <p>
+                    <label for="sender-identity">Sender Identity (Name):</label>
+                    <input type="text" id="sender-identity" name="Identity" required placeholder="e.g. Neil Armstrong">
+                </p>
+
+                <fieldset>
+                    <legend>Do you like my website?</legend>
+                    <p>
+                        <input type="radio" id="review-love" name="WebsiteFeedback" value="LoveIt" checked>
+                        <label for="review-love">i love it!!!</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="review-yes" name="WebsiteFeedback" value="Yes">
+                        <label for="review-yes">Yes</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="review-good" name="WebsiteFeedback" value="LooksGood">
+                        <label for="review-good">it looks good</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="review-hate" name="WebsiteFeedback" value="HateIt" disabled>
+                        <label for="review-hate">I hate it</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <label for="letter-body">Your Message to Commander Kyla:</label><br>
+                    <textarea id="letter-body" name="Message" rows="6" cols="50" required placeholder="Type your cosmic letter here..."></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Launch Letter">
+                </p>
+            </form>
+        </section>
+
     </main>
+
+    <section id="back-to-top">
+            <p><a href="#top">▲ Return to Orbit (Back to Top)</a></p>
+        </section>
 
     <footer>
         <p>&copy; skydde</p>
