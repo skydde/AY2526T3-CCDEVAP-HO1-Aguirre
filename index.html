@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | CCDEVAP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header id="top">
-        <div class="title">
+        <div class="title-bar">
             <h1>The Daily Cosmos: Project K</h1>
         </div>
-        
-        <nav>
+        <nav class="nav-bar" aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">home</a></li>
                 <li><a href="crewprofile.html">crew profile</a></li>
@@ -20,105 +20,104 @@
         </nav>
     </header>
 
-    <main>
-        <section id="breaking-news">
-        <h2>BREAKING NEWS:MISSION UPDATE: CCDEVAP COMMANDER RETURNS SAFELY AFTER SUCCESSFUL INTERGALACTIC DIPLOMATIC OPERATION</h2>
-        
-        <figure>
-        <img src="pic1.jfif" alt="The Student Commander First Picture with Alien PEPPA and PARKER" width="400">
-         <figcaption><strong>MISSION LOG:</strong> Commander successfully establishes first contact with local earthly entities 'Peppa' and 'Parker'.</figcaption>
-        </figure>
+    <div class="page-layout">
+        <main class="main-column">
+            <section id="breaking-news">
+                <h2>BREAKING NEWS! MISSION UPDATE: CCDEVAP COMMANDER RETURNS SAFELY AFTER SUCCESSFUL INTERGALACTIC DIPLOMATIC OPERATION</h2>
 
-        <h3>INCOMING TRANSMISSION: Returning CCDEVAP Student Commander Logged in Orbit</h3>
-            <p>Good evening, citizens of the digital galaxy. We return now to our live orbital coverage following the safe arrival of one of CCDEVAP’s youngest field commanders. After completing a highly classified off-world diplomatic mission involving suspiciously colorful toy civilizations and unknown lifeforms identified only as “Peppa” and “Parker,” Commander Kyla has officially returned to the station.</p>
-            <p>Mission control reports successful cultural integration, stable emotional morale, and only minor casualties to the commander’s sleep schedule. Recovered mission files indicate the commander is currently continuing advanced training in front-end engineering, interface systems, and cosmic web development.</p>
-            <p>Stand by as we retrieve the commander’s official personnel records...</p>
+                <figure>
+                    <img src="pic1.jfif" alt="The Student Commander First Picture with Alien PEPPA and PARKER" width="400">
+                    <figcaption><strong>MISSION LOG:</strong> Commander successfully establishes first contact with local earthly entities 'Peppa' and 'Parker'.</figcaption>
+                </figure>
 
-         <p>[ ACCESSING DATABASE . . . ]</p>
-         <p>[ WARNING: Signal distortion detected ]</p>
-         <p>[ ERROR 404: Seriousness levels critically low ]</p>
-         <p>[ ATTEMPTING MANUAL RECOVERY . . . ]</p>
-         <p>[ ERROR ]</p>
-         
-         <p>Okay wait... why is this thing lagging? Are my logs sending?</p>
-         <p>Uh... hello?</p>
-         <p>If you're reading this, then I guess the transmission worked.</p>
-         <p>This is Student Commander Kyla, S16. Just returning from my last mission log… now I’m back on Earth and I need to head to my CCDEVAP class for debriefing and further system training.</p>
-         <p>End transmission... for now.</p>
-      </section>
+                <h3>INCOMING TRANSMISSION: Returning CCDEVAP Student Commander Logged in Orbit</h3>
+                <p>Good evening, citizens of the digital galaxy. We return now to our live orbital coverage following the safe arrival of one of CCDEVAP’s youngest field commanders. After completing a highly classified off-world diplomatic mission involving suspiciously colorful toy civilizations and unknown lifeforms identified only as “Peppa” and “Parker,” Commander Kyla has officially returned to the station.</p>
+                <p>Mission control reports successful cultural integration, stable emotional morale, and only minor casualties to the commander’s sleep schedule. Recovered mission files indicate the commander is currently continuing advanced training in front-end engineering, interface systems, and cosmic web development.</p>
+                <p>Stand by as we retrieve the commander’s official personnel records...</p>
 
-       <section id="featured-content">
-         <h3>FEATURED:</h3>
-         <a href="featured1.html">
-            <h3>Did you know Mikyla Aguirre wanted to become an Astronaut?</h3>
-          </a>
+                <p>[ ACCESSING DATABASE . . . ]</p>
+                <p>[ WARNING: Signal distortion detected ]</p>
+                <p>[ ERROR 404: Seriousness levels critically low ]</p>
+                <p>[ ATTEMPTING MANUAL RECOVERY . . . ]</p>
+                <p>[ ERROR ]</p>
 
-          <a href="featured2.html">
-            <h3>What Kyla Loves Doing the Most</h3>
-           </a>
-        </section>
+                <p>Okay wait... why is this thing lagging? Are my logs sending?</p>
+                <p>Uh... hello?</p>
+                <p>If you're reading this, then I guess the transmission worked.</p>
+                <p>This is Student Commander Kyla, S16. Just returning from my last mission log… now I’m back on Earth and I need to head to my CCDEVAP class for debriefing and further system training.</p>
+                <p>End transmission... for now.</p>
+            </section>
 
-        <section id="audio-showcase">
-            <h3>SONG OF THE MONTH</h3>
-            <audio controls>
-                <source src="som.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </section>
+            <section id="space-letter-form">
+                <h3>.ೃ ࿔ * : TRANSMIT A LETTER TO SPACE .ೃ ࿔ * :</h3>
+                <p>Type your transmission below to send it straight to Commander Kyla's desktop station.</p>
 
-        <section id="articles">
-            <article>
-                <h3>Know more about Commander Kyla</h3>
-                <p><a href="crewprofile.html">READ MORE: [View CREW PROFILE]</a></p>
-            </article>
-        </section>
-
-        <section id="space-letter-form">
-            <h3>.ೃ ࿔ * : TRANSMIT A LETTER TO SPACE .ೃ ࿔ * :</h3>
-            <p>Type your transmission below to send it straight to Commander Kyla's desktop station.</p>
-            
-            <form action="mailto:mikyla_kirsten_aguirre@dlsu.edu.ph" method="post" enctype="text/plain">
-                <p>
-                    <label for="sender-identity">Sender Identity (Name):</label>
-                    <input type="text" id="sender-identity" name="Identity" required placeholder="e.g. Neil Armstrong">
-                </p>
-
-                <fieldset>
-                    <legend>Do you like my website?</legend>
+                <form action="mailto:mikyla_kirsten_aguirre@dlsu.edu.ph" method="post" enctype="text/plain">
                     <p>
-                        <input type="radio" id="review-love" name="WebsiteFeedback" value="LoveIt" checked>
-                        <label for="review-love">i love it!!!</label>
+                        <label for="sender-identity">Sender Identity (Name):</label>
+                        <input type="text" id="sender-identity" name="Identity" required placeholder="e.g. Neil Armstrong">
                     </p>
+
+                    <fieldset>
+                        <legend>Do you like my website?</legend>
+                        <p>
+                            <input type="radio" id="review-love" name="WebsiteFeedback" value="LoveIt" checked>
+                            <label for="review-love">i love it!!!</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="review-yes" name="WebsiteFeedback" value="Yes">
+                            <label for="review-yes">Yes</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="review-good" name="WebsiteFeedback" value="LooksGood">
+                            <label for="review-good">it looks good</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="review-hate" name="WebsiteFeedback" value="HateIt" disabled>
+                            <label for="review-hate">I hate it</label>
+                        </p>
+                    </fieldset>
+
                     <p>
-                        <input type="radio" id="review-yes" name="WebsiteFeedback" value="Yes">
-                        <label for="review-yes">Yes</label>
+                        <label for="letter-body">Your Message to Commander Kyla:</label><br>
+                        <textarea id="letter-body" name="Message" rows="6" cols="50" required placeholder="Type your cosmic letter here..."></textarea>
                     </p>
+
                     <p>
-                        <input type="radio" id="review-good" name="WebsiteFeedback" value="LooksGood">
-                        <label for="review-good">it looks good</label>
+                        <input type="submit" value="Launch Letter">
                     </p>
-                    <p>
-                        <input type="radio" id="review-hate" name="WebsiteFeedback" value="HateIt" disabled>
-                        <label for="review-hate">I hate it</label>
-                    </p>
-                </fieldset>
+                </form>
+            </section>
+        </main>
 
-                <p>
-                    <label for="letter-body">Your Message to Commander Kyla:</label><br>
-                    <textarea id="letter-body" name="Message" rows="6" cols="50" required placeholder="Type your cosmic letter here..."></textarea>
-                </p>
+        <aside class="sidebar" aria-label="Featured updates and links">
+            <section id="featured-content" class="sidebar-block">
+                <h3>FEATURED:</h3>
+                <a href="featured1.html" class="featured-story-link" aria-label="Read featured story: Astronaut dream">
+                    <span class="featured-link-title">Did you know Mikyla Aguirre wanted to become an Astronaut?</span>
+                </a>
 
-                <p>
-                    <input type="submit" value="Launch Letter">
-                </p>
-            </form>
-        </section>
+                <a href="featured2.html" class="featured-story-link" aria-label="Read featured story: What Kyla loves">
+                    <span class="featured-link-title">What Kyla Loves Doing the Most</span>
+                </a>
+            </section>
 
-    </main>
+            <section id="audio-showcase" class="sidebar-block">
+                <h3>SONG OF THE MONTH</h3>
+                <audio controls>
+                    <source src="som.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
 
-    <section id="back-to-top">
-            <p><a href="#top">▲ Return to Orbit (Back to Top)</a></p>
-        </section>
+            <section id="articles" class="sidebar-block">
+                <article>
+                    <h3>Know more about Commander Kyla</h3>
+                    <p><a href="crewprofile.html" class="sidebar-text-link">READ MORE: [View CREW PROFILE]</a></p>
+                </article>
+            </section>
+        </aside>
+    </div>
 
     <footer>
         <p>&copy; skydde</p>

@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crew Profile | CCDEVAP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="page-crew-profile">
 
     <header id="top">
-        <div class="title">
+        <div class="title-bar">
             <h1>The Daily Cosmos: Project K</h1>
         </div>
-        
-        <nav>
+        <nav class="nav-bar" aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">home</a></li>
                 <li><a href="crewprofile.html">crew profile</a></li>
@@ -20,178 +20,178 @@
         </nav>
     </header>
 
-    <main>
+    <div class="page-layout page-layout--full">
+        <main class="main-column">
+            <section id="crew-vitals">
+                <h2 class="crew-section-heading">.ೃ ࿔ * : CREW MEMBER VITALS.ೃ ࿔ * : </h2>
 
-        
-        <section id="crew-vitals">
-            <h2>.ೃ ࿔ * : CREW MEMBER VITALS.ೃ ࿔ * : </h2>
+                <figure>
+                    <img src="crewprofile.jfif" alt="My Crew Profile picture aka si ganda" width="400">
+                </figure>
+            </section>
 
-              <figure>
-                <img src="crewprofile.jfif" alt="My Crew Profile picture aka si ganda" width="400">
-              </figure>
+            <div class="crew-tables-row">
+                <section id="crew-vitals-table" class="crew-table-panel">
+                    <h2 class="crew-panel-heading">.ೃ ࿔ * : VITALS PANEL.ೃ ࿔ * : </h2>
+                    <table border="1">
+                        <caption>info about me!</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Specification</th>
+                                <th scope="col">Data Record</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">NAME:</th>
+                                <td>Mikyla Kirsten P. Aguirre</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">NICKNAME:</th>
+                                <td>Kyla</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">EMAIL:</th>
+                                <td>mikyla_kirsten_aguirre@dlsu.edu.ph</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">BODY:</th>
+                                <td>Human</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">AGE:</th>
+                                <td>19</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">BIRTHDAY:</th>
+                                <td>July 23, 2006</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">ZODIAC SIGN:</th>
+                                <td>Leo Cusp</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
 
-            <table border="1">
-                <caption>info about me!</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">Specification</th>
-                        <th scope="col">Data Record</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">NAME:</th>
-                        <td>Mikyla Kirsten P. Aguirre</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">NICKNAME:</th>
-                        <td>Kyla</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">EMAIL:</th>
-                        <td>mikyla_kirsten_aguirre@dlsu.edu.ph</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">BODY:</th>
-                        <td>Human</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">AGE:</th>
-                        <td>19</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">BIRTHDAY:</th>
-                        <td>July 23, 2006</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">ZODIAC SIGN:</th>
-                        <td>Leo Cusp</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+                <section id="mission-record" class="crew-table-panel">
+                    <h2 class="crew-panel-heading">.ೃ ࿔ * : MISSION RECORD &amp; ACADEMIC LOG.ೃ ࿔ * : </h2>
+                    <table border="1">
+                        <caption>my proud works!</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">STAR DATE</th>
+                                <th scope="col">STELLAR COORDINATES</th>
+                                <th scope="col">MISSION OBJECTIVE</th>
+                                <th scope="col">ARTIFACTS SECURED</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2022-2024</td>
+                                <td>De La Salle University</td>
+                                <td>Senior High School Science, Technology, Engineering, and Mathematics Strand</td>
+                                <td>General Excellence Awardee - Bronze Medal (GWA of 93.00 - 94.99)</td>
+                            </tr>
+                            <tr>
+                                <td>2024</td>
+                                <td>De La Salle University</td>
+                                <td>Presented research at the DLSU SHS Research Congress 2024</td>
+                                <td>Outstanding Research Award</td>
+                            </tr>
+                            <tr>
+                                <td>2024</td>
+                                <td>DLSU Animove Dance Group</td>
+                                <td>Creatives Team Member</td>
+                                <td>Achieved sold-out and multi-day concert success, selling 1,707 tickets total and generating over ₱431,000 in ticket and merchandise revenue.</td>
+                            </tr>
+                            <tr>
+                                <td>2025</td>
+                                <td>Filipino Youth Summit DLSU 2025</td>
+                                <td>Assistant Team Leader for Productions  </td>
+                                <td>Successful execution of a national youth summit with student delegates from across the Philippines.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
 
-        <section id="orbit-schedule">
-           <h2>.ೃ ࿔ * : DAILY ORBIT SCHEDULE.ೃ ࿔ * : </h2>
-             <table border="1">
-               <caption>what i wish my day looked like</caption>
-        <thead>
-            <tr>
-                <th scope="col">TIME</th>
-                <th scope="col">ACTIVITY</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>09:00 AM</td>
-                <td>wake up and junk journal</td>
-            </tr>
-            <tr>
-                <td>10:00 AM</td>
-                <td>cook and eat my own breakfast</td>
-            </tr>
-            <tr>
-                <td>11:00 AM</td>
-                <td>go to class</td>
-            </tr>
-            <tr>
-                <td>12:00 PM</td>
-                <td>next class!</td>
-            </tr>
-            <tr>
-                <td>01:00 PM</td>
-                <td>eat lunch with my friends</td>
-            </tr>
-            <tr>
-                <td>02:00 PM</td>
-                <td>do remaining schoolworks and orgworks</td>
-            </tr>
-            <tr>
-                <td>03:00 PM</td>
-                <td>go to dance class</td>
-            </tr>
-            <tr>
-                <td>04:00 PM</td>
-                <td>more dance training!</td>
-            </tr>
-            <tr>
-                <td>05:00 PM</td>
-                <td>go home and wind down with my favorite song</td>
-            </tr>
-            <tr>
-                <td>06:00 PM</td>
-                <td>cook my own dinner, catch up with family</td>
-            </tr>
-            <tr>
-                <td>07:00 PM</td>
-                <td>kulit my baby sister, playtime!</td>
-            </tr>
-            <tr>
-                <td>08:00 PM</td>
-                <td>draw or read my current book</td>
-            </tr>
-            <tr>
-                <td>09:00 PM</td>
-                <td>plan my day tomorrow and journal about my day!</td>
-            </tr>
-            <tr>
-                <td>10:00 PM</td>
-                <td>watch modern family</td>
-            </tr>
-            <tr>
-                <td>11:00 PM</td>
-                <td>goodnight!</td>
-            </tr>
-          </tbody>
-          </table>
-        </section>
-
-        <section id="mission-record">
-     <h2>.ೃ ࿔ * : MISSION RECORD &amp; ACADEMIC LOG.ೃ ࿔ * : </h2>
-        <table border="1">
-        <caption>my proud works!</caption>
-        <thead>
-            <tr>
-                <th scope="col">STAR DATE</th>
-                <th scope="col">STELLAR COORDINATES</th>
-                <th scope="col">MISSION OBJECTIVE</th>
-                <th scope="col">ARTIFACTS SECURED</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2022-2024</td>
-                <td>De La Salle University</td>
-                <td>Senior High School Science, Technology, Engineering, and Mathematics Strand</td>
-                <td>General Excellence Awardee - Bronze Medal (GWA of 93.00 - 94.99)</td>
-            </tr>
-            <tr>
-                <td>2024</td>
-                <td>De La Salle University</td>
-                <td>Presented research at the DLSU SHS Research Congress 2024</td>
-                <td>Outstanding Research Award</td>
-            </tr>
-            <tr>
-                <td>2024</td>
-                <td>DLSU Animove Dance Group</td>
-                <td>Creatives Team Member</td>
-                <td>Achieved sold-out and multi-day concert success, selling 1,707 tickets total and generating over ₱431,000 in ticket and merchandise revenue.</td>
-            </tr>
-            <tr>
-                <td>2025</td>
-                <td>Filipino Youth Summit DLSU 2025</td>
-                <td>Assistant Team Leader for Productions  </td>
-                <td>Successful execution of a national youth summit with student delegates from across the Philippines.</td>
-            </tr>
-        </tbody>
-         </table>
-        </section>
-    </main>
-
-    <section id="back-to-top">
-            <p><a href="#top">▲ Return to Orbit (Back to Top)</a></p>
-        </section>
-
+            <section id="orbit-schedule" class="crew-schedule-full">
+                <h2 class="crew-section-heading">.ೃ ࿔ * : DAILY ORBIT SCHEDULE.ೃ ࿔ * : </h2>
+                <table border="1">
+                    <caption>what i wish my day looked like</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">TIME</th>
+                            <th scope="col">ACTIVITY</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>09:00 AM</td>
+                            <td>wake up and junk journal</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 AM</td>
+                            <td>cook and eat my own breakfast</td>
+                        </tr>
+                        <tr>
+                            <td>11:00 AM</td>
+                            <td>go to class</td>
+                        </tr>
+                        <tr>
+                            <td>12:00 PM</td>
+                            <td>next class!</td>
+                        </tr>
+                        <tr>
+                            <td>01:00 PM</td>
+                            <td>eat lunch with my friends</td>
+                        </tr>
+                        <tr>
+                            <td>02:00 PM</td>
+                            <td>do remaining schoolworks and orgworks</td>
+                        </tr>
+                        <tr>
+                            <td>03:00 PM</td>
+                            <td>go to dance class</td>
+                        </tr>
+                        <tr>
+                            <td>04:00 PM</td>
+                            <td>more dance training!</td>
+                        </tr>
+                        <tr>
+                            <td>05:00 PM</td>
+                            <td>go home and wind down with my favorite song</td>
+                        </tr>
+                        <tr>
+                            <td>06:00 PM</td>
+                            <td>cook my own dinner, catch up with family</td>
+                        </tr>
+                        <tr>
+                            <td>07:00 PM</td>
+                            <td>kulit my baby sister, playtime!</td>
+                        </tr>
+                        <tr>
+                            <td>08:00 PM</td>
+                            <td>draw or read my current book</td>
+                        </tr>
+                        <tr>
+                            <td>09:00 PM</td>
+                            <td>plan my day tomorrow and journal about my day!</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 PM</td>
+                            <td>watch modern family</td>
+                        </tr>
+                        <tr>
+                            <td>11:00 PM</td>
+                            <td>goodnight!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
 
     <footer>
         <p>&copy; skydde</p>

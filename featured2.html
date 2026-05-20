@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Featured: Dance | CCDEVAP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header id="top">
-        <div class="title">
+        <div class="title-bar">
             <h1>The Daily Cosmos: Project K</h1>
         </div>
-        
-        <nav>
+        <nav class="nav-bar" aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">home</a></li>
                 <li><a href="crewprofile.html">crew profile</a></li>
@@ -19,60 +20,58 @@
         </nav>
     </header>
 
-    <main>
-        
-        <section id="breaking-news">
-        <h2>Featured Stories: What Kyla Loves Doing the Most</h2>
-        
-       <video width="640" height="360" controls>
-         <source src="vid1.mp4" type="video/mp4">
-         Your browser does not support the video tag.
-        </video>
+    <div class="page-layout">
+        <main class="main-column">
+            <section id="breaking-news">
+                <h2>Featured Stories: What Kyla Loves Doing the Most</h2>
 
-        <p>My most happiest place on earth is at a dance studio with music blasting from the speakers while moving my body. I don't know what it is but I really am the happiest whenever 
-            I'm dancing. I really enjoy music, I am so so so soooo fond of it. I actually also waanted to become a music producer before, that was my second choice if I didnt get into DLSU SHS STEM.
-            Sadly I dont do it often now in college, every summer i try to take more classes, but not like before where I would take atleast twice a month. I feel passionate about it. Like a burning desire to do it.
-            So my most proudest work in the past years I have stayed in DLSU, I thin its when I joined DLSU Animove Dance Group and I got to plan a production, train with amazing people, learn from different choreographers who are also my peers, and just share the same mirror with these amazing dancers. 
-            All my friends and family went, and I was so happy to share all our hard work to them. I also got to perform in the DLSU Homecoming because the Animove Vietnam Team won Gold Medal. 
-            I am so proud of the people in the team and I met and connected with so much amazing people in the dance community which are now my bestest friends. I really love them so much, and I love dance so much!
-        </p>
-       </section>
+                <video width="640" height="360" controls>
+                    <source src="vid1.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
 
-       <figure>
-        <img src="pic3.jfif" alt="Animove pics" width="400">
-       </figure>
+                <p>My most happiest place on earth is at a dance studio with music blasting from the speakers while moving my body. I don't know what it is but I really am the happiest whenever
+                    I'm dancing. I really enjoy music, I am so so so soooo fond of it. I actually also waanted to become a music producer before, that was my second choice if I didnt get into DLSU SHS STEM.
+                    Sadly I dont do it often now in college, every summer i try to take more classes, but not like before where I would take atleast twice a month. I feel passionate about it. Like a burning desire to do it.
+                    So my most proudest work in the past years I have stayed in DLSU, I thin its when I joined DLSU Animove Dance Group and I got to plan a production, train with amazing people, learn from different choreographers who are also my peers, and just share the same mirror with these amazing dancers.
+                    All my friends and family went, and I was so happy to share all our hard work to them. I also got to perform in the DLSU Homecoming because the Animove Vietnam Team won Gold Medal.
+                    I am so proud of the people in the team and I met and connected with so much amazing people in the dance community which are now my bestest friends. I really love them so much, and I love dance so much!
+                </p>
+            </section>
 
-       <figure>
-        <img src="pic4.jfif" alt="Animove pics" width="400">
-       </figure>
+            <figure>
+                <img src="pic3.jfif" alt="Animove pics" width="400">
+            </figure>
 
-        <section id="featured-content">
-         <h3>FEATURED:</h3>
-         <a href="featured1.html">
-            <h3>Did you know Mikyla Aguirre wanted to become an Astronaut?</h3>
-          </a>
-        </section>
+            <figure>
+                <img src="pic4.jfif" alt="Animove pics" width="400">
+            </figure>
+        </main>
 
-        <section id="audio-showcase">
-            <h2>SONG OF THE MONTH</h2>
-            <audio controls>
-                <source src="som.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </section>
+        <aside class="sidebar" aria-label="Featured updates and links">
+            <section id="featured-content" class="sidebar-block">
+                <h3>FEATURED:</h3>
+                <a href="featured1.html" class="featured-story-link" aria-label="Read featured story: Astronaut dream">
+                    <span class="featured-link-title">Did you know Mikyla Aguirre wanted to become an Astronaut?</span>
+                </a>
+            </section>
 
-         <section id="articles">
-            <article>
-                <h3>Know more about Commander Kyla</h3>
-                <p><a href="crewprofile.html">READ MORE: [View CREW PROFILE]</a></p>
-            </article>
-        </section>
+            <section id="audio-showcase" class="sidebar-block">
+                <h3>SONG OF THE MONTH</h3>
+                <audio controls>
+                    <source src="som.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
 
-    </main>
-
-    <section id="back-to-top">
-            <p><a href="#top">▲ Return to Orbit (Back to Top)</a></p>
-        </section>
+            <section id="articles" class="sidebar-block">
+                <article>
+                    <h3>Know more about Commander Kyla</h3>
+                    <p><a href="crewprofile.html" class="sidebar-text-link">READ MORE: [View CREW PROFILE]</a></p>
+                </article>
+            </section>
+        </aside>
+    </div>
 
     <footer>
         <p>&copy; skydde</p>
